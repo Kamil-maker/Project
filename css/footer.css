@@ -1,0 +1,171 @@
+body footer {
+       padding-top: 140px; 
+    background-color: rgb(17,20,27); 
+}
+
+body footer .container {
+/* padding-top: 200px; */
+}
+body footer.container .footer-area {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body footer .container .footer-area .row .col-sm-4 {
+     /* flex: 0 0 25%; */
+    /* max-width: 25%;  */
+}
+
+body footer .container .footer-area .row .col-sm-4 .single-footer-caption {
+margin-bottom: 50px;
+margin-right: 60px;
+}
+
+body footer .container .footer-area .row .col-sm-4 .single-footer-caption .footer-title {
+    margin-bottom: 50px;
+}
+
+body footer .container .footer-area .row .col-sm-4 .single-footer-caption .footer-title h4 {
+    color: #fff;
+    font-family: "Muli",sans-serif;
+    font-size: 18px;
+    margin-bottom: 38px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+body footer .container .footer-area .row .col-sm-4 .single-footer-caption .footer-title .footer-pera .info1{
+    line-height: 1.8;
+    margin-bottom: 35px;
+    color: #bdbdbd;
+}
+
+body footer .container .footer-area .row .col-sm-4 .single-footer-captionn .footer-number h4 span {
+    color: #fff;
+
+}
+
+body footer .container .footer-area .row .col-sm-4 .single-footer-captionn .footer-number h4  {
+    color: #3957ff;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+body footer .container .footer-area .row .col-sm-4 .single-footer-captionn .footer-number p {
+    font-family: "Muli",sans-serif;
+    color: #bdbdbd;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+body footer .container .footer-area .row .col-sm-4 .single-footer-captionn .footer-form {
+    margin-top: 30px;
+}
+
+body footer .container .footer-area .row .col-sm-4 .single-footer-captionn .footer-form .row .col-sm-6 #from .placeholder {
+    width: 200px;
+    height: 43px;
+    padding: 10px 20px;
+    border: 0;
+    background: #1c242f;
+    color: #fff;
+    margin-left: 20px;
+}
+
+body footer .container .footer-area .row .col-sm-4 .single-footer-captionn .footer-form .row .col-sm-6 .form-icon #newsletter-submit {
+   position: absolute;
+    /* top: 0px;
+    right: 0; */
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 15px 22px;
+    background: #0a0f17;
+    line-height: 1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    color: #3957ff;
+    width: 90px;
+}
+
+body footer .container .footer-area .row .col-sm-8 .footer-copy-right p {
+    font-family: "Muli",sans-serif;
+    /* color: #10285d; */
+    /* font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal; */
+    color: #bdbdbd;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 12px;
+}
+
+body footer .container .footer-area .row .col-sm-8 .footer-copy-right p .fas {
+    color: #3957ff;
+}
+
+body footer .container .footer-area .row .col-sm-8 .footer-copy-right p a {
+    text-decoration: none;
+    color: #3957ff;
+}
+
+body footer .container .footer-area .row .col-sm-4 .footer-social {
+    float: right;
+}
+
+body footer .container .footer-area .row .col-sm-4 .footer-social a .fas{
+    color: #fff;
+    /* color: #9fa8c3; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+    /* border: 1px solid #fff5fb; */
+    /* margin-left: 30px; */
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+body footer .container .footer-area .row .col-sm-4 .footer-social a .fas:hover {
+    -webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    
+}
+
+body footer .container .footer-area .row .col-sm-4 .footer-social a .fab {
+    color: #fff;
+    /* color: #9fa8c3; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+    /* border: 1px solid #fff5fb; */
+    /* margin-left: 30px; */
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+body footer .container .footer-area .row .col-sm-4 .footer-social a .fab:hover {
+    -webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}

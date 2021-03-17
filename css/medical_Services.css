@@ -1,0 +1,135 @@
+body main .medical_Services {
+/* padding-top: 100px; */
+padding-top: 230px;
+background-color: rgb(245,248,255);
+}
+
+body main .medical_Services .department_area .container .row .col-sm-12 .section-tittle {
+
+}
+
+body main .medical_Services .department_area .container .row .col-sm-12 .section-tittle .topicS{
+  color: rgb(57,108,240);
+  
+}
+
+
+
+body main .medical_Services .department_area .container .row .col-sm-12 .section-tittle .descr_{
+    font-size: 50px;
+ font-weight: 900;
+ margin-bottom: 14px;
+ color: #102039;
+ line-height: 1.2;
+ margin-bottom: 30px;
+ text-transform: uppercase;
+ }
+
+ body main .medical_Services .department_area .container .row .col-sm-12 .depart_ment_tab .nav {
+    
+    color: rgb(41,110,164);
+  
+ }
+
+ body main .medical_Services .department_area .container .row .col-sm-12 .depart_ment_tab .nav .nav-items {
+       background-color: rgb(255, 255, 255); 
+      box-shadow: 0 0 20px rgb(99, 95, 95); 
+      margin-left: 10px;
+marker: none;
+
+ }
+
+ body main .medical_Services .department_area .container .row .col-sm-12 .depart_ment_tab .nav .nav-items .nav-link #Attr {
+ font-size:45px;
+ margin-left: 29px;
+padding-top:12px ;
+marker: none;
+ }
+
+ body main .medical_Services .department_area .container .row .col-sm-12 .depart_ment_tab .nav .nav-items .nav-link .Cardio {
+ margin-left: 30px;
+ marker: none;
+ }
+
+ body main .medical_Services .department_area .container .row .col-sm-12 .depart_ment_tab .nav .nav-items .nav-link .ENT  {
+ margin-left: 40px;
+ marker: none;
+ 
+}
+ /* body main .Medical_Services .department_area .container .row .col-sm-12 .depart_ment_tab .nav .nav-item { */
+
+ /* body main .Medical_Services .department_area .container .row .col-sm-12 .depart_ment_tab .nav .nav-item.active {
+      color:white;
+      background-color:  blue;
+   } */
+
+
+  
+body main .dep_main_info{
+   
+}
+
+body main .dep_main_info .tab-content .tab-panel .row .col-sm-7 .dep_info{
+   background-image: linear-gradient(to right, #85d0ff 0%, #28afee  51%, #007acc  100%);
+   padding-top: 150px;
+    padding-bottom: 60px;
+    
+}
+
+body main .dep_main_info .tab-content .tab-panel .row .col-sm-7 .dep_info h3 {
+   font-size: 33px;
+   color: #efecfa;
+   font-family: "Muli",sans-serif;
+   margin-left:15px ;
+padding-bottom: 15px;
+margin-left: 20px;
+
+   /* margin-bottom: 50px;
+   padding-right: 35px; */
+}
+
+body main .dep_main_info .tab-content .tab-panel .row .col-sm-7 .dep_info p{
+color: whitesmoke;
+margin-left:20px ;
+padding-bottom: 15px;
+}
+
+
+body main .dep_main_info .tab-content .tab-panel .row .col-sm-5 .dept_thumb img {
+margin-bottom: 30px;
+   padding-top: 30px;
+}
+
+.active {
+   background-color: blue;
+   color: cadetblue;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+   body main .Medical_Services {
+      /* padding-top: 100px; */
+      padding-top: 100px;
+      background-color: rgb(245,248,255);
+      }
+
+
+   body main .dep_main_info .tab-content .tab-panel .row .col-sm-5 .dept_thumb img {
+      /* margin-bottom: 30px; */
+         padding-top: 0.1px;
+         width: 42px;
+      }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+
+body main .dep_main_info .tab-content .tab-panel .row .col-sm-5 .dept_thumb img {
+   /* margin-bottom: 30px; */
+      padding-top: 0.1px;
+      width: 300px;
+   }
+
+}

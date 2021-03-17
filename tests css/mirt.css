@@ -1,0 +1,95 @@
+
+ body main {
+    background-color: rgb(34,34,34);
+    }
+    body main .Portfoilo{
+    
+    }
+    body main .Portfoilo .Topic {
+    text-align: center;
+    }
+    body main .Portfoilo .Topic h1 {
+        font-size: 50px;
+        color: rgb(255,255,255);
+    }
+    body main .Portfoilo .container {
+    
+    }
+    body main .Portfoilo .container .row{
+    
+        }
+        body main .Portfoilo .container .row .list-group{
+             flex-direction: row;
+            
+        }
+        body main .Portfoilo .container .row .list-group .list-group-item{
+            border: none;
+            text-decoration: none;
+            color: grey;
+            background-color: rgb(34,34,34);
+            transition: all 0.5s;
+        }
+        body main .Portfoilo .container .row .list-group .list-group-item:hover {
+            color: yellowgreen;
+        }
+        body main .Portfoilo .container .tab-pane .row .col-sm-4 .card{
+            border: none;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: 180;
+        font-size: 18px;
+        
+        }
+        body main .Portfoilo .container .tab-pane .row .col-sm-4 .card .card-body {
+            background-color: #222222;
+            color: whitesmoke;
+    
+        }
+        body main .My-Resume {
+    padding-top: 300px;
+    }
+    body main .My-Resume .container  {
+    
+    }
+    body main .My-Resume .container .header {
+      text-align: center;
+      color: whitesmoke;
+      padding-bottom: 50px;
+    }
+    
+    body main .My-Resume .container .row{
+    
+    }
+    body main .My-Resume .container .row .col-md-6{
+    
+    }
+    
+    
+    body main .My-Resume .container .row .col-md-6 .mb-d{
+    color: whitesmoke;
+    }
+    body main .My-Resume .container .row .col-md-6 .resume-item  {
+    
+    }
+    body main .My-Resume .container .row .col-md-6 .resume-item .card {
+       
+        border: none;
+        /* padding: 30px;
+        padding-bottom: 0px; */
+    }
+    
+    body main .My-Resume .container .row .col-md-6 .resume-item .card .card-body{
+    
+    background-color: rgb(51,51,51);
+    }
+    body main .My-Resume .container .row .col-md-6 .resume-item .card .card-body .card-title {
+        color: yellowgreen;
+    }
+    body main .My-Resume .container .row .col-md-6 .resume-item .card .card-body  .card-text {
+        color: rgb(126,126,126);
+    }
+    body main .My-Resume .container .row .col-md-6 .resume-item .card .card-body  .card-end {
+        color: rgb(126,126,126);
+    }  
+    
+    

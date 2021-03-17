@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+
+}
+
+/* body header .navbar{
+    
+} */
+
+body header .navbar .container-fluid {
+    padding-top: 15px;
+    background-color: white;
+    
+}
+
+body header .navbar .container-fluid img {
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+
+body header .navbar .container-fluid .navbar-nav {
+
+}
+
+body header .navbar .container-fluid .navbar-nav .nav-item{
+margin-left: 30px;
+}
+
+body header .navbar .container-fluid .navbar-nav .nav-item a {
+    
+color: #102039;
+    font-weight: 400;
+    padding: 15px 10px; 
+    display: block;
+    font-size: 17px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-transform: capitalize;
+    position: relative;
+    font-family: "Muli",sans-serif;
+    text-decoration: none;
+
+}
+
+body header .navbar .container-fluid .navbar-nav .nav-item a:hover{
+color: blue;
+}
+
+
+ .btn-grad {background-image: linear-gradient(to right, #2286c4 0%, #2599cf  51%, #2b4555  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px rgb(99, 95, 95);
+   border-radius: 5px;
+   display: block;
+   font-family: "Muli",sans-serif;
+   border: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; 
+color: rgb(36, 252, 180);
+   
+   text-decoration: none;
+ } 
+
+ 

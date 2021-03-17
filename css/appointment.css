@@ -1,0 +1,146 @@
+body .appointment {
+    padding-top: 110px;
+}
+
+body .appointment .container .row .col-sm-3 .from img {
+    /* background-image: url(../images/contact_form.webp); */
+     width: 437px; 
+      height: 600px; 
+      
+}
+
+body .appointment .container .row .col-sm-7 {
+    margin-left: 180px;
+    display: flex;
+    padding-top: 80px;
+    /* padding-bottom: 10px; */
+}
+
+body .appointment .container .row .col-sm-7 {
+    background-color: rgb(247,253,255);
+}
+
+body .appointment .container .row .col-sm-7 .from-wrapper .form-title .row .col-sm-12 .section-title .topic {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 22px;
+    color: #396cf0;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+
+
+}
+
+
+body .appointment .container .row .col-sm-7 .from-wrapper .form-title .row .col-sm-12 .section-title .topic2 {
+    font-size: 50px;
+    display: block;
+    color: #030431;
+}
+
+
+body .appointment .container .row .col-sm-7 #contact-form .row .col-sm-6 .form-box .text {
+    background: none;
+    height: 60px;
+    width: 100%;
+    padding: 10px 25px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    border: 0;
+    color: #112957;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    border-bottom: 2px solid #e9f0f4;
+}
+
+body .appointment .container .row .col-sm-7 #contact-form .row .col-sm-6 .select-itms .textsd{
+    background-color: rgb(247,253,255);
+    /* background: none; */
+    height: 70px;
+    width: 100%;
+    padding: 10px 25px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    border: 0;
+    color: #112957;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0px;
+    border-bottom: 2px solid #e9f0f4;
+}
+
+
+
+body .appointment .container .row .col-sm-7 #contact-form .row .col-sm-6 .select-itms .textsd option {
+    background:none ;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    color: #112957;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    border-radius: 0px;
+    border-bottom: 2px solid #e9f0f4;
+}
+
+body .appointment .container .row .col-sm-7 #contact-form .row .col-sm-6 .form-box {
+    padding: 10px;
+}
+
+body .appointment .container .row .col-sm-7 #contact-form .row .col-sm-12 .form-box #message {
+    color: #112957;
+    background: none;
+    margin-bottom: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    height: 130px;
+    width: 100%;
+    padding: 30px 21px;
+    border: 0;
+    border-radius: 0px;
+    border-bottom: 2px solid #e9f0f4;
+}
+
+
+.btn-gradAB {background-image: linear-gradient(to right, #009dff 0%, #00d9ff  51%, #5d93b4  100%)}
+.btn-gradAB {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px rgb(99, 95, 95);
+   border-radius: 5px;
+   display: block;
+   font-family: "Muli",sans-serif;
+   border: none;
+ }
+
+ .btn-gradAB:hover {
+   background-position: right center; 
+color: rgb(36, 252, 180);
+   
+   text-decoration: none;
+ } 
+
+
+ @media  only screen and (max-width: 600px) {
+    body .appointment .container .row .col-sm-3 .from img {
+        width: 420px; 
+        height: 500px; 
+    }
+ }
+
+ @media  only screen and (max-width: 320px) {
+    body .appointment .container .row .col-sm-3 .from img {
+     display: none;
+    }
+ }

@@ -1,0 +1,168 @@
+body main {
+
+}
+
+body main .home  {
+      /* margin-top: -1px;  */
+background-image: url(../images/h1_hero.webp);
+ background-repeat: no-repeat;
+background-position:center center ; 
+background-size: cover;
+padding: 200px;
+height: 880px;
+width: 1000;
+
+   /* margin-top: -2px;
+    background-image: url(../img/hero/h1_hero.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+
+}
+
+
+body main .home .container {
+    margin-left: -120px;
+}
+
+body main .home .container .slider-active  {
+    position: relative;
+    display: block;
+}
+
+
+/* body main .home .container .slider-active .single-slider .row {
+    margin-right: 50px;
+} */
+
+body main .home .container .slider-active .single-slider .row .col-sm-7 .hero_caption .topic {
+  font-size:1.4vw;
+   
+     /* font-size: 18px; */
+    font-family: "Muli",sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #396cf0;
+  display: inline-block;
+  position: relative;
+   /* padding-left: 100px; */  
+  letter-spacing: 0.05em;
+} 
+
+body main .home .container .slider-active .single-slider .row .col-sm-7 .hero_caption hr {
+    color: rgb(57,108,240);
+    height: 2px;
+}
+
+body main .home .container .slider-active .single-slider .row .col-sm-7 .hero_caption .headline {
+  font-size:4.5vw;
+   
+    /* font-size: 60px;  */
+     font-weight: 900;
+     margin-bottom: 14px;
+    color: #102039;
+ line-height: 1.2; 
+     margin-bottom: 50px;
+     text-transform: uppercase;
+}
+
+body main .home .container .slider-active .single-slider .row .col-sm-7 .hero_caption .headline .continue{
+    font-size:4.5vw;
+  
+     /* font-size: 60px;  */
+     font-weight: 800; 
+    color:rgb(31,43,123);
+     line-height: 1; 
+     margin-bottom: 50px; 
+    text-transform: uppercase; 
+}
+
+body main .home .container .slider-active .single-slider .row .col-sm-7 .hero_caption .description {
+  font-size:1.3vw;
+   
+     /* font-size: 18px;  */
+    color: #212025;
+ font-family: "Muli",sans-serif; 
+     margin-bottom: 50px; 
+     padding-right: 35px; 
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    body main .home  {
+        /* margin-top: -1px;  */
+  background-image: url(../images/h1_hero.webp);
+   background-repeat: no-repeat;
+  background-position:center center ; 
+  background-size: cover; 
+  padding: 200px;
+  height:600px;
+  /* width:500px ; */
+    }
+   
+    body main .home .container .slider-active .single-slider .row .col-sm-7 .hero_caption .topic {
+        font-size:4vw;
+         
+           /* font-size: 18px; */
+          font-family: "Muli",sans-serif;
+          font-weight: 300;
+          margin-bottom: 10px;
+        text-transform: uppercase;
+        color: #396cf0;
+        display: inline-block;
+        position: relative;
+         /* padding-left: 100px; */  
+        letter-spacing: 0.05em;
+      } 
+   
+    body main .home .container .slider-active .single-slider .row .col-sm-7 .hero_caption .headline {
+        font-size:7vw;
+   
+        /* font-size: 60px;  */
+         font-weight: 900;
+         margin-bottom: 14px;
+        color: #102039;
+     line-height: 1.2; 
+         margin-bottom: 10px;
+         text-transform: uppercase;
+        }
+
+body main .home .container .slider-active .single-slider .row .col-sm-7 .hero_caption .headline .continue{
+    font-size:6vw;
+  
+    /* font-size: 60px;  */
+    font-weight: 800; 
+   color:rgb(31,43,123);
+    line-height: 1; 
+    margin-bottom: 10px; 
+   text-transform: uppercase; 
+
+  }
+
+  body main .home .container .slider-active .single-slider .row .col-sm-7 .hero_caption .description {
+    font-size:4vw;
+     
+       /* font-size: 18px;  */
+      color: #212025;
+   font-family: "Muli",sans-serif; 
+       margin-bottom: 10px; 
+       /* padding-right: 35px;  */
+  }
+  
+}
+
+
+@media only screen and (max-width: 320px) {
+    body main .home {
+      /* margin-top: -1px;  */
+      background-image: url(../images/h1_hero.webp);
+      background-repeat: no-repeat;
+     background-position:center center ; 
+     background-size: cover; 
+     padding: 200px;
+     height:300px;
+     display: none;
+}
+}

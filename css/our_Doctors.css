@@ -1,0 +1,138 @@
+body .our_Doctors {
+    padding-top: 120px;
+}
+
+body .our_Doctors .container .row .col-sm-6 .section-title .topic {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 22px;
+    color: #396cf0;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+body .our_Doctors .container .row .col-sm-6 .section-title .topic2 {
+    font-size: 50px;
+    display: block;
+    color: #030431;
+    font-weight: 800;
+}
+/* 
+  .team-img img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+    overflow: hidden;
+}
+
+.team-img img:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    overflow: hidden;
+    
+}  */
+
+
+.team-img { 
+    overflow: hidden; 
+    margin: 0 auto; 
+} 
+
+.team-img img { 
+    width: 100%; 
+    transition: 0.7s all ease-in-out; 
+} 
+
+.team-img:hover img { 
+    transform: scale(1.1); 
+} 
+
+
+body .our_Doctors .container .row .col-sm-4 .single-team .team-caption {
+    margin-left: 30px;
+    padding:15px;
+    transition: .4s;
+}
+
+body .our_Doctors .container .row .col-sm-4 .single-team .team-caption h3 a {
+     color: #161e46;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none; 
+    margin-left: 35px;
+     font-family: "Muli",sans-serif;
+   /* color: #030431;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+    text-decoration: none; */
+}
+
+body .our_Doctors .container .row .col-sm-4 .single-team .team-caption span {
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Muli",sans-serif;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+
+body .our_Doctors .container .row .col-sm-4 .single-team .team-caption .team-social a {
+    color: #9fa8c3;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+    border: 1px solid #fff5fb;
+    /* margin-left: 30px; */
+}
+
+body .our_Doctors .container .row .col-sm-4 .single-team .team-caption:hover {
+    /* border: 1px solid transparent; */
+    border-top: 0;
+    /* -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s; */
+    transition: .4s;
+    background: #0f66f8;
+    /* color: #ffff; */
+}
+
+
+/* body .our_Doctors .container .row .col-sm-4 .single-team .team-caption:hover .team-img img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+} */
+
+/* body .our_Doctors .container .row .col-sm-4 .single-team .team-caption:hover .team-img img:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+} */
+
+body .our_Doctors .container .row .col-sm-4 .single-team .team-caption:hover h3 a{
+color: #fff;
+
+}
+
+body .our_Doctors .container .row .col-sm-4 .single-team .team-caption:hover span{
+color: #fff;
+}
+
+a:hover i {
+
+color:
+ #fff;
+
+}

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    }
+    
+    body main .doctors .slider-area {
+        /* background-color: rgb(207,232,252); */
+        background-image: url(../images/hero2.webp);
+        background-size: cover; 
+      /* width: 1320px;
+      height: 480px;  */
+        padding-top: 200px;
+    }
+    
+    body main .doctors .slider-area .slider-height2 {
+    
+    }
+    
+    
+    body main .doctors .slider-area .slider-height2 .container .row {
+    margin-bottom: 200px;
+    }
+    

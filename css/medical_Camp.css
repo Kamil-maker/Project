@@ -1,0 +1,41 @@
+body .Medical_Camp {
+padding-top: 100px;
+}
+
+body .Medical_Camp .gallery-area .container .row .col-sm-6 .section-tittle {
+
+}
+
+body .Medical_Camp .gallery-area .container .row .col-sm-6 .section-tittle h1{
+    font-size: 30px;
+    color: rgb(57,108,240);
+
+}
+
+body .Medical_Camp .gallery-area .container .row .col-sm-6 .section-tittle hr {
+    color: rgb(57,108,240);
+    height: 3px;
+}
+
+
+body .Medical_Camp .gallery-area .container .row .col-sm-6 .section-tittle h2{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 14px;
+    color: #102039;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+body .Medical_Camp .gallery-area .container .row .col-sm-6 .row .col-sm-12 .single-gallery .gallery-img{
+    /* background-image: url(../images/gallery1.webp); */
+     
+    
+
+}
+
+body .Medical_Camp .gallery-area .container .row .col-lg-6 .row .col-lg-6 .single-gallery .gallery-img{
+
+}
+

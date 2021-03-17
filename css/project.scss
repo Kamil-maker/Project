@@ -1,0 +1,61 @@
+.department {
+    background-image: url(department.png);
+    span {
+        margin-top: 200px;
+        text-align: center;
+        color: blue;
+        font-size: 20px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 55px;
+        font-weight: 650;
+    }
+    .nav-group {
+        .nav-box {
+            flex-direction: row;
+            width: 165px;
+            height: 165px;
+            background-color: white;
+            margin: 20px;
+            display: inline-block;
+            padding: 20px;
+            cursor: pointer;
+            i {
+                color: aqua;
+
+                font-size: 100px;
+            }
+        }
+        .active{
+            background-color: black;
+            color: white;
+        }
+    }
+    .col-lg-7 {
+        background-image: linear-gradient(left, aqua, blue);
+        color: white;
+        padding: 100px;
+        h4 {
+            margin: 30px;
+        }
+        p {
+            margin: 30px;
+        }
+        button {
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 0%;
+            font-weight: 100;
+            width: 220px;
+            height: 70px;
+            margin: 30px;
+        }
+    }
+    .col-lg-5 {
+        img {
+            width: 100%;
+        }
+    }
+}

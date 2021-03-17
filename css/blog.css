@@ -1,0 +1,110 @@
+body main .blog{
+    padding-top: 100px;
+}
+
+body main .blog .container {
+    padding-bottom: 170px;
+}
+
+body main .blog .container .row .col-sm-6 .section-tittle .topic3 {
+    font-size: 18px;
+    font-weight: 700;     
+    margin-bottom: 22px;
+    color: #396cf0;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+body main .blog .container .row .col-sm-6 .section-tittle hr {
+color: rgb(57,108,240);
+border: 2px solid rgb(57,108,240);
+}
+
+body main .blog .container .row .col-sm-6 .section-tittle .topic2 {
+    font-size: 50px;
+    display: block;
+    color: #030431;
+    font-weight: 800;
+}
+
+/* body main .blog .container .row .col-sm-4 .single-blogs .blog-img img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+body main .blog .container .row .col-sm-4 .single-blogs .blog-img img:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+} */
+
+
+.blog-img { 
+    overflow: hidden; 
+    margin: 0 auto; 
+} 
+
+.blog-img img { 
+    width: 100%; 
+    transition: 0.7s all ease-in-out; 
+} 
+
+.blog-img:hover img { 
+    transform: scale(1.1); 
+} 
+
+body main .blog .container .row .col-sm-4 .single-blogs .blogs-cap .date-info {
+    padding-top: 20px;
+}
+
+body main .blog .container .row .col-sm-4 .single-blogs .blogs-cap .date-info .blg_top {
+    display: inline-block;
+    margin-right: 14px;
+    padding-right: 14px;
+    line-height: 1;
+    margin-bottom: 16px;
+    color: #5191ff;
+    position: relative;
+    font-size: 14px;
+}
+
+body main .blog .container .row .col-sm-4 .single-blogs .blogs-cap .date-info .blg_top2 {
+    display: inline-block;
+    color: #aebccb;
+    font-size: 14px;
+}
+
+body main .blog .container .row .col-sm-4 .single-blogs .blogs-cap h4  {
+    font-family: "Muli",sans-serif;
+    color: #030431;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+   
+}
+
+body main .blog .container .row .col-sm-4 .single-blogs .blogs-cap h4 a  {
+text-decoration: none;
+color: #112957;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+body main .blog .container .row .col-sm-4 .single-blogs .blogs-cap  #read {
+   text-decoration: none;
+    color: #c4c4c4;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+body main .blog .container .row .col-sm-4 .single-blogs .blogs-cap  #read:hover {
+    text-decoration: none;
+    color: #1174e6;
+   
+
+}

@@ -1,0 +1,110 @@
+/* body .Starups-section {
+padding-top: 90px;
+}
+
+body .Starups-section .all-starups-area .starups  {
+background-image: url(../images/section_bg01.webp);
+margin-bottom: 50px;
+width: auto;
+ display: inline-block; 
+padding: 90px; 
+}
+
+body .Starups-section .all-starups-area .starups .h1-testimonial-active .single-testimonial .testimonial-caption .testimonial-top-cap p {
+ font-size: 0px; 
+ font-weight: 900;
+ margin-bottom: 14px;
+ color:rgb(254,254,254);
+ line-height: 1.2;
+ margin-bottom: 30px;
+ text-transform: uppercase; 
+ line-height: 1.5;
+ margin-bottom: 50px;
+ font-size: 20px;
+ color: #fff;
+ font-weight: 3000
+}
+
+body .Starups-section .all-starups-area .starups .h1-testimonial-active .single-testimonial .testimonial-caption .testimonial-founder .founder-img {
+
+}
+
+
+body .Starups-section .all-starups-area .starups .h1-testimonial-active .single-testimonial .testimonial-caption .testimonial-founder .founder-text span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff
+}
+body .Starups-section .all-starups-area .starups .h1-testimonial-active .single-testimonial .testimonial-caption .testimonial-founder .founder-text p {
+
+    color: #ddd;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+body .Starups-section .all-starups-area .starupsddssd-img{
+   
+}
+
+body .Starups-section .all-starups-area .starupsddssd-img img {
+ width: 500px;
+height: 300px;
+display: inline-block; 
+width: 800px;
+    height: 500px;
+    margin-left: 170px;
+}  */
+
+
+
+
+body .star-Ups {
+    padding-top: 90px;
+    
+    }
+    
+    body .star-Ups .container  {
+        background-image: url(../images/section_bg01.webp);
+    margin-bottom: 50px;
+     /* width: auto;  */
+     /* display: inline-block;  */
+    padding: 90px; 
+    padding-left: 100px;
+    }
+    
+    body .star-Ups .container .row .col-sm-6 .starups .h1-testimonial-active .single-testimonial .testimonial-caption .testimonial-top-cap p {
+        /* font-size: 10px; 
+        font-weight: 900;
+        margin-bottom: 14px;
+        color:rgb(254,254,254);
+        line-height: 1.2;
+        margin-bottom: 30px;
+        text-transform: uppercase; 
+        line-height: 1.5;
+        margin-bottom: 50px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 3000 */
+    
+        line-height: 1.5;
+        margin-bottom: 50px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 3000;
+    }
+    
+    body .star-Ups .container .row .col-sm-6 .starups .h1-testimonial-active .single-testimonial .testimonial-caption .testimonial-founder .founder-text span {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff
+    }
+    body .star-Ups .container .row .col-sm-6 .starups .h1-testimonial-active .single-testimonial .testimonial-caption .testimonial-founder .founder-text p {
+        color: #ddd;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    
+    body .star-Ups .container .row .col-sm-6 .starupsddssd-img img{
+    
+    
+    }

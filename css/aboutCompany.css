@@ -1,0 +1,142 @@
+body .about_Company {
+    padding-top: 150px;
+}
+
+body .about_Company .company_descr {
+
+}
+
+body .about_Company .company_descr .company_title span .abc { 
+  color: rgb(57,108,240);
+
+}
+
+body .about_Company .company_descr .company_title span  hr{ 
+color: rgb(57,108,240);
+}
+
+body .about_Company .company_descr .company_title .abcd { 
+    font-size: 50px;
+ font-weight: 900;
+ margin-bottom: 14px;
+ color: #102039;
+ line-height: 1.2;
+ margin-bottom: 30px;
+ text-transform: uppercase;
+}
+
+
+body .about_Company .company_descr .company_title p{ 
+    font-size: 17px;
+    color: #515053;
+    font-family: "Muli",sans-serif;
+    margin-bottom: 50px;
+    padding-right: 35px;
+}
+
+
+body .about_Company .Services .about-btn {
+margin-top: 30px;
+ }
+
+
+ .btn-gradA{background-image: linear-gradient(to right, #849294 0%, #3b5866  51%, #3779a1  100%)}
+.btn-gradA {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px rgb(99, 95, 95);
+   border-radius: 5px;
+   display: block;
+   font-family: "Muli",sans-serif;
+   border: none;
+}
+
+.btn-gradA:hover {
+    background-position: right center; 
+ color: rgb(0, 248, 132);
+    
+    text-decoration: none;
+  } 
+
+  body .about_Company .col-sm-6 .about-img .about-font-img  {
+
+    /* position:relative; */
+    height:400px;
+    /* width:543px; */
+    /* margin:0 auto; */
+  }
+
+  body .about_Company .col-sm-6 .about-img .about-font-img #fl {
+    height:600px;
+
+  }
+
+  body .about_Company .col-sm-6 .about-img .about-font-img .img-top {
+    width: 350px; 
+    height: 550px;
+  }
+
+  body .about_Company .col-sm-6 .about-img .about-font-img img {
+  position:absolute;
+  /* left:0; */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+body .about_Company .col-sm-6 .about-img .about-font-img  .img-top:hover {
+
+  opacity:0;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  body .about_Company .col-sm-6 .about-img .about-font-img  {
+    height:400px;
+  
+  }
+
+
+  body .about_Company .col-sm-6 .about-img .about-font-img #fl {
+
+    height:400px;
+    width:430px;
+  
+  }
+
+  body .About_Company .col-sm-6 .about-img .about-font-img .img-top {
+    width: 280px;
+     height: 380px;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+
+  body .About_Company .col-sm-6 .about-img .about-font-img  {
+    height:320px;
+  width:568 ;
+  }
+
+
+  body .About_Company .col-sm-6 .about-img .about-font-img #fl {
+
+    height:320px;
+    width:568px;
+  
+  }
+
+  body .About_Company .col-sm-6 .about-img .about-font-img .img-top {
+    width: 320px;
+     height:568px;
+  }
+
+}

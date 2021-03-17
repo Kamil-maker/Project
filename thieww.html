@@ -1,797 +1,204 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <style>
-
-    </style>
-</head>
-<body>
-    <section class="Medical_Services">
-        <div class="department_area section-padding2">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="section-tittle text-center mb-100">
-                  <h3 class="topicS">Our Departments</h3>
-                  <!-- <hr style="width:200px; margin-left:450px ;" class="opacity">     
-              
-                    
-                  <h2 class="descr_">Our Medical Services</h2>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-12">
-                <div class="depart_ment_tab mb-30">
-                  <ul class="nav" id="myTab" role="tablist">
-                    <li class="nav-items nav-item_active">
-                      <a class="nav-link">
-                        <i class="fas fa-tooth" id="Attr"></i>
-                        <h4>Dentistry</h4>
-                      </a>
-                    </li>
-                    <li class="nav-items" >
-                      <a class="nav-link">
-                        <img
-                          src="images/heart.png"
-                          class="Cardio"
-                          alt="cardio"
-                        />
-                        <h4>Cardiology</h4>
-                      </a>
-                    </li>
-                    <li class="nav-items">
-                      <a class="nav-link">
-                        <img src="images/ear.png" class="ENT" alt="ENT" />
-                        <h4>ENT Specialists</h4>
-                      </a>
-                    </li>
-                    <li class="nav-items">
-                      <a class="nav-link">
-                        <img src="images/broken-bone.png" id="Attr" alt="Ast" />
-                        <h4>Astrology</h4>
-                      </a>
-                    </li>
-                    <li class="nav-items">
-                      <a class="nav-link">
-                        <img src="images/lung (2).png" class="ENT" alt="Neu" />
-                        <h4>Neuroanatomy</h4>
-                      </a>
-                    </li>
-                    <li class="nav-items">
-                      <a class="nav-link">
-                        <img
-                          src="images/blood-drop.png"
-                          class="ENT"
-                          alt="Blood"
-                        />
-                        <h4>Blood Screening</h4>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <!-- <div class="col-sm-2">
-                <li class="nav-items nav-item_active">
-                  <a class="nav-link">
-                    <i class="fas fa-tooth" id="Attr"></i>
-                    <h4>Dentistry</h4>
-                  </a>
-                </li>
-           
-               
-         
-                
-              </div>
-              <div class="col-sm-2">
-                <li class="nav-items">
-                  <a class="nav-link">
-                    <img
-                      src="images/heart.png"
-                      class="Cardio"
-                      alt="cardio"
-                    />
-                    <h4>Cardiology</h4>
-                  </a>
-                </li>
-              </div>
-              <div class="col-sm-2">
-                <li class="nav-items">
-                  <a class="nav-link">
-                    <img src="images/ear.png" class="ENT" alt="ENT" />
-                    <h4>ENT Specialists</h4>
-                  </a>
-                </li>
-              </div>
-              <div class="col-sm-2">
-                <li class="nav-items">
-                  <a class="nav-link">
-                    <img src="images/broken-bone.png" id="Attr" alt="Ast" />
-                    <h4>Astrology</h4>
-                  </a>
-                </li>
-              </div>
-              <div class="col-sm-2">
-                
-                <li class="nav-items">
-                  <a class="nav-link">
-                    <img src="images/lung (2).png" class="ENT" alt="Neu" />
-                    <h4>Neuroanatomy</h4>
-                  </a>
-                </li>
-              </div>
-              <div class="col-sm-2">
-                <li class="nav-items">
-                  <a class="nav-link">
-                    <img
-                      src="images/blood-drop.png"
-                      class="ENT"
-                      alt="Blood"
-                    />
-                    <h4>Blood Screening</h4>
-                  </a>
-                </li>
-              </div> 
-            </div>
-            <div class="dep_main_info">
-              <div class="tab-content">
-                <div class="tab-panel">
-                  <div class="row align-items-center">
-                    <div class="col-sm-7">
-                      <div class="dep_info">
-                        <h3>
-                          Dentist with surgical mask holdingr <br />
-                          scaler near patient
-                        </h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis.
-                        </p>
-
-                        <div class="nav-item " style="margin-left: 15px;">
-                          <button type="button" class="btn-grad">
-                            Appointment
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-5 " >
-                      <div class="dept_thumb">
-                        <img src="images/department_man.webp" alt="Medical" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-content">
-                <div class="tab-panel">
-                  <div class="row align-items-center">
-                    <div class="col-sm-7">
-                      <div class="dep_info">
-                        <h3>
-                          Dentist with surgical mask holding <br />
-                          scaler near patient
-                        </h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis.
-                        </p>
-
-                        <div class="nav-item">
-                          <button type="button" class="btn-grad">
-                            Appointment
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-5">
-                      <div class="dept_thumb">
-                        <img src="images/about2.webp" alt="Medical" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-content">
-                <div class="tab-panel">
-                  <div class="row align-items-center">
-                    <div class="col-sm-7">
-                      <div class="dep_info">
-                        <h3>
-                          Dentist with surgical mask holding <br />
-                          scaler near patient
-                        </h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis.
-                        </p>
-
-                        <div class="nav-item">
-                          <button type="button" class="btn-grad">
-                            Appointment
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-5">
-                      <div class="dept_thumb">
-                        <img src="images/about1.webp" alt="Medical" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-content">
-                <div class="tab-panel">
-                  <div class="row align-items-center">
-                    <div class="col-sm-7">
-                      <div class="dep_info">
-                        <h3>
-                          Dentist with surgical mask holding <br />
-                          scaler near patient
-                        </h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis.
-                        </p>
-
-                        <div class="nav-item">
-                          <button type="button" class="btn-grad">
-                            Appointment
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-5">
-                      <div class="dept_thumb">
-                        <img src="images/department_man.webp" alt="Medical" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-content">
-                <div class="tab-panel">
-                  <div class="row align-items-center">
-                    <div class="col-sm-7">
-                      <div class="dep_info">
-                        <h3>
-                          Dentist with surgical mask holding <br />
-                          scaler near patient
-                        </h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis.
-                        </p>
-
-                        <div class="nav-item">
-                          <button type="button" class="btn-grad">
-                            Appointment
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-5">
-                      <div class="dept_thumb">
-                        <img src="images/department_man.webp" alt="Medical" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="tab-content">
-                <div class="tab-panel">
-                  <div class="row align-items-center">
-                    <div class="col-sm-7">
-                      <div class="dep_info">
-                        <h3>
-                          Dentist with surgical mask holding <br />
-                          scaler near patient
-                        </h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis.
-                        </p>
-
-                        <div class="nav-item">
-                          <button type="button" class="btn-grad">
-                            Appointment
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-5">
-                      <div class="dept_thumb">
-                        <img src="images/department_man.webp" alt="Medical" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-</body>
-</html> -->
-
-
-<!-- <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: "Lato", sans-serif;}
-
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 50px;
-  text-align: center;
-}
-
-#London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;}
-</style>
-</head>
-<body>
-
-
-
-<div id="London" class="tabcontent">
-  <h1>London</h1>
-  <p>London is the capital city of England.</p>
-</div>
-
-<div id="Paris" class="tabcontent">
-  <h1>Paris</h1>
-  <p>Paris is the capital of France.</p> 
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h1>Tokyo</h1>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
-<div id="Oslo" class="tabcontent">
-  <h1>Oslo</h1>
-  <p>Oslo is the capital of Norway.</p>
-</div>
-
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
-
-<script>
-function openCity(cityName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(cityName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-
-}
-document.getElementById("defaultOpen").click();
-</script>
-   
-
-<section class="Medical_Services">
-    <div class="department_area section-padding2">
-      <div class="container">
-      
-        <div class="row">
-           <div class="col-sm-12">
-            <div class="depart_ment_tab mb-30">
-              <ul class="nav" id="myTab" role="tablist">
-                <li class="nav-items nav-item_active">
-                  <a class="tab-links">
-                  
-                    <h4>Dentistry</h4>
-                  </a>
-                </li>
-                <li class="nav-items" >
-                  <a class="tab-links">
-                  
-                    <h4>Cardiology</h4>
-                  </a>
-                </li>
-                <li class="nav-items">
-                  <a class="tab-links">
-                  
-                    <h4>ENT Specialists</h4>
-                  </a>
-                </li>
-                <li class="nav-items">
-                  <a   class="tab-links">
-                  
-                    <h4>Astrology</h4>
-                  </a>
-                </li>
-                <li class="nav-items">
-                  <a class="tab-links" >
-                  
-                    <h4>Neuroanatomy</h4>
-                  </a>
-                </li>
-                <li class="nav-items">
-                  <a class="tab-links">
-                  
-                    <h4>Blood Screening</h4>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-         
-        </div>
-        <div class="dep_main_info">
-          <div id="tB0" class="tab-content">
-            <div class="tab-panel">
-              <div class="row align-items-center">
-                <div class="col-sm-7">
-                  <div class="dep_info">
-                    <h3>
-                      Dentist with surgical mask holdingr <br />
-                      scaler near patient
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua. Quis ipsum suspendisse ultrices
-                      gravida. Risus commodo viverra maecenas accumsan lacus
-                      vel facilisis.
-                    </p>
-
-                    <div class="nav-item " style="margin-left: 15px;">
-                      <button type="button" class="btn-grad">
-                        Appointment
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-5 " >
-                  <div class="dept_thumb">
-                    <img src="images/department_man.webp" alt="Medical" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div  id="tB1" class="tab-content">
-            <div class="tab-panel">
-              <div class="row align-items-center">
-                <div class="col-sm-7">
-                  <div class="dep_info">
-                    <h3>
-                      Dentist with surgical mask holding <br />
-                      scaler near patient
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua. Quis ipsum suspendisse ultrices
-                      gravida. Risus commodo viverra maecenas accumsan lacus
-                      vel facilisis.
-                    </p>
-
-                    <div class="nav-item">
-                      <button type="button" class="btn-grad">
-                        Appointment
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-5">
-                  <div class="dept_thumb">
-                    <img src="images/about2.webp" alt="Medical" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div id="tB2" class="tab-content">
-            <div class="tab-panel">
-              <div class="row align-items-center">
-                <div class="col-sm-7">
-                  <div class="dep_info">
-                    <h3>
-                      Dentist with surgical mask holding <br />
-                      scaler near patient
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua. Quis ipsum suspendisse ultrices
-                      gravida. Risus commodo viverra maecenas accumsan lacus
-                      vel facilisis.
-                    </p>
-
-                    <div class="nav-item">
-                      <button type="button" class="btn-grad">
-                        Appointment
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-5">
-                  <div class="dept_thumb">
-                    <img src="images/about1.webp" alt="Medical" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div id="tB3" class="tab-content">
-            <div class="tab-panel">
-              <div class="row align-items-center">
-                <div class="col-sm-7">
-                  <div class="dep_info">
-                    <h3>
-                      Dentist with surgical mask holding <br />
-                      scaler near patient
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua. Quis ipsum suspendisse ultrices
-                      gravida. Risus commodo viverra maecenas accumsan lacus
-                      vel facilisis.
-                    </p>
-
-                    <div class="nav-item">
-                      <button type="button" class="btn-grad">
-                        Appointment
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-5">
-                  <div class="dept_thumb">
-                    <img src="images/department_man.webp" alt="Medical" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div id="tB4" class="tab-content">
-            <div class="tab-panel">
-              <div class="row align-items-center">
-                <div class="col-sm-7">
-                  <div class="dep_info">
-                    <h3>
-                      Dentist with surgical mask holding <br />
-                      scaler near patient
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua. Quis ipsum suspendisse ultrices
-                      gravida. Risus commodo viverra maecenas accumsan lacus
-                      vel facilisis.
-                    </p>
-
-                    <div class="nav-item">
-                      <button type="button" class="btn-grad">
-                        Appointment
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-5">
-                  <div class="dept_thumb">
-                    <img src="images/department_man.webp" alt="Medical" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div id="tB5" class="tab-content">
-            <div class="tab-panel">
-              <div class="row align-items-center">
-                <div class="col-sm-7">
-                  <div class="dep_info">
-                    <h3>
-                      Dentist with surgical mask holding <br />
-                      scaler near patient
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit, sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua. Quis ipsum suspendisse ultrices
-                      gravida. Risus commodo viverra maecenas accumsan lacus
-                      vel facilisis.
-                    </p>
-
-                    <div class="nav-item">
-                      <button type="button" class="btn-grad">
-                        Appointment
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-5">
-                  <div class="dept_thumb">
-                    <img src="images/department_man.webp" alt="Medical" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script>
-function openCity(cityName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tab-content");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(cityName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-  </script>
-</body>
-</html>  -->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
-  script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/9cecfcad96.js"
-      crossorigin="anonymous"
-    ></script>
+  <style>
+    html{
+  background-color: rgb(93, 93, 223);
+}
 
-    <link
-      rel="stylesheet"
-      href="
-                        https://www.flaticon.com/free-icon/ear_664500?term=ears&page=1&position=9&page=1&position=9&related_id=664500&origin=tag"
-                 />
-  <link rel="stylesheet" href="css/starUps2.css">
+.game__Over{
+  color: rgb(255, 0, 0);
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 180;
+font-size: 29px;
+padding: 30px;
+margin-left: 60px; 
+text-align: center;
+margin-right:50px ;
+}
+
+
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  
+}
+
+  </style>
 </head>
+
 <body>
-  <section class="star-Ups">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="starups">
-            <div class="h1-testimonial-active">
-              <div class="single-testimonial text-center">
-                <div class="testimonial-caption">
-                  <div class="testimonial-top-cap">
-                    <!-- <img src="images/section_bg01.webp" alt="" />   -->
-                    <p>
-                      “I am at an age where I just want to be fit and
-                      healthy our bodies are our responsibility! So start
-                      caring for your body and it will care for you. Eat
-                      clean it will care for yout hard.”
-                    </p>
-                  </div>
-
-                  <div
-                    class="testimonial-founder d-flex align-items-center justify-content-center"
-                  >
-                    <div class="founder-img">
-                      <img src="images/Homepage_testi.webp" alt="" />
-                    </div>
-                    <div class="founder-text">
-                      <span>Margaret Lawson</span>
-                      <p>Chif Photographer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-   
-      </div>
-<div class="row">
-  <div class="col-sm-6">
-    <div class="starupsddssd-img">
-      <img
-        src="images/startup.webp"
-        alt="212121"
-        style="max-width: 100%; height: auto"
-      />
-    </div>
+  <div class="game__Over">
+  
   </div>
-</div>
-      
-    </div>
-  </section>
+    <!-- <button class="glow-on-hover" type="button">HOVER ME, THEN CLICK ME!</button> -->
+  
+  <canvas id="game" width="608" height="608"></canvas>
+  <script src="js/game.js"></script>
+
+  <script>
+    const  over = document.querySelector(".game__Over")
+const canvas = document.getElementById("game");
+const frm = canvas.getContext("2d");
+
+
+const ground = new Image();
+ground.src = "img/ground.png";
+
+const foodImg = new Image();
+foodImg.src = "img/food.png";
+
+
+let box = 32;
+
+let score = 0;
+
+let food = {
+  x:Math.floor((Math.random() * 17 + 1)) * box,
+  y:Math.floor((Math.random() * 15 + 3)) * box
+}
+
+let snake = [];
+snake[0] = {
+  x: 9 * box,
+  y: 10 * box
+};
+
+document.addEventListener("keydown",direction)
+
+
+
+let dir;
+
+function direction(e) {
+if(e.keyCode == 37 && dir != "right"){
+  dir = "left";
+}else if(e.keyCode == 38 && dir !="down"){
+dir = "up";
+}else if(e.keyCode == 39 && dir !="left"){
+  dir = "right";
+}else if(e.keyCode == 40 && dir !="up"){
+ dir = "down";
+}
+
+}
+
+function drawing(){
+  frm.drawImage(ground, 0, 0);
+
+  frm.drawImage(foodImg,food.x,food.y);
+
+  for(let i = 0; i < snake.length; i++){
+    frm.fillStyle = i == 0 ? "green" : "red" ;
+
+    frm.fillRect(snake[i].x, snake[i].y, box, box);
+  }
+
+  frm.fillStyle =  "whitesmoke";
+  frm.font = "50px Areal";
+  frm.fillText(score, box * 2.5 , box * 1.7)
+  
+  let snakeX = snake[0].x;
+  let snakeY = snake[0].y;
+
+  if(snakeX == food.x && snakeY == food.y) {
+         score++;
+         food = {
+           x: Math.floor((Math.random() * 17 + 1)) * box,
+           y: Math.floor((Math.random() * 15 + 3)) * box,
+          };
+        } else {
+           snake.pop();
+       }
+
+if(snakeX < box || snakeX > box * 17 || snakeY < 4 * box || snakeY > box * 17  ){
+  clearInterval(game);
+  over.textContent = "Game Over"
+}
+
+  if(dir == "left") snakeX -= box;
+  if(dir == "right") snakeX += box;
+  if(dir == "up") snakeY -= box;
+  if(dir == "down") snakeY += box;
+   
+   let newHead = {
+    x: snakeX,
+    y: snakeY
+   }
+   snake.unshift(newHead);
+} 
+
+
+
+let game = setInterval(drawing, 100);
+
+
+  </script>
+
 </body>
+
 </html>
-
-
-

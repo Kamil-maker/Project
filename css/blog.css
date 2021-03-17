@@ -1,10 +1,9 @@
 body main .blog{
-    padding-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
 }
 
-body main .blog .container {
-    padding-bottom: 170px;
-}
 
 body main .blog .container .row .col-sm-6 .section-tittle .topic3 {
     font-size: 18px;

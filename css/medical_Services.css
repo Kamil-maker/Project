@@ -118,7 +118,8 @@ margin-bottom: 30px;
    body main .dep_main_info .tab-content .tab-panel .row .col-sm-5 .dept_thumb img {
       /* margin-bottom: 30px; */
          padding-top: 0.1px;
-         width: 42px;
+         width: 420px;
+         height: 420px;
       }
 
 

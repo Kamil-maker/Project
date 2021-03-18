@@ -99,7 +99,7 @@ body .about_Company .col-sm-6 .about-img .about-font-img  .img-top:hover {
 
 
   body .about_Company .col-sm-6 .about-img .about-font-img  {
-    height:400px;
+    /* height:400px; */
   
   }
 
@@ -112,8 +112,8 @@ body .about_Company .col-sm-6 .about-img .about-font-img  .img-top:hover {
   }
 
   body .About_Company .col-sm-6 .about-img .about-font-img .img-top {
-    width: 280px;
-     height: 380px;
+    width: 180px;
+     height: 280px;
   }
 
 }
@@ -122,21 +122,21 @@ body .about_Company .col-sm-6 .about-img .about-font-img  .img-top:hover {
 
 
   body .About_Company .col-sm-6 .about-img .about-font-img  {
-    height:320px;
-  width:568 ;
+    height:120px;
+  width:368 ;
   }
 
 
   body .About_Company .col-sm-6 .about-img .about-font-img #fl {
 
-    height:320px;
-    width:568px;
+    height:120px;
+    width:368px;
   
   }
 
   body .About_Company .col-sm-6 .about-img .about-font-img .img-top {
-    width: 320px;
-     height:568px;
+    width: 120px;
+     height:368px;
   }
 
 }

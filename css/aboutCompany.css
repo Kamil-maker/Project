@@ -77,8 +77,8 @@ margin-top: 30px;
   }
 
   body .about_Company .col-sm-6 .about-img .about-font-img .img-top {
-    width: 350px; 
-    height: 550px;
+    width: 250px; 
+    height: 450px;
   }
 
   body .about_Company .col-sm-6 .about-img .about-font-img img {
@@ -121,7 +121,7 @@ body .about_Company .col-sm-6 .about-img .about-font-img  .img-top:hover {
     height:120px;
   width:368 ;
   }
-
+  
 
   body .About_Company .col-sm-6 .about-img .about-font-img #fl {
 
@@ -130,9 +130,11 @@ body .about_Company .col-sm-6 .about-img .about-font-img  .img-top:hover {
   
   }
 
-  body .About_Company .col-sm-6 .about-img .about-font-img .img-top {
+  body .About_Company .col-sm-6 .about-img .about-font-img #fj {
     width: 120px;
      height:368px;
   }
 
+
+  
 }

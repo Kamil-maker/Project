@@ -120,6 +120,4 @@ this.parent.append(element);
    
  });
 
-      function myFunction() {
-
-      }
+    

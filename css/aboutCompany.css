@@ -69,11 +69,12 @@ margin-top: 30px;
     /* height:400px; */
     /* width:543px; */
     /* margin:0 auto; */
+    height:400px;
   }
 
   body .about_Company .col-sm-6 .about-img .about-font-img #fl {
-    height:500px;
-    width: 430;
+    height:600px;
+    /* width: 630px; */
 
   }
 
@@ -97,7 +98,9 @@ body .about_Company .col-sm-6 .about-img .about-font-img  .img-top:hover {
 }
 
 @media only screen and (max-width: 600px) {
-
+  body .about_Company {
+    padding-top: 100px;
+  }
 
   
 
@@ -108,9 +111,9 @@ body .about_Company .col-sm-6 .about-img .about-font-img  .img-top:hover {
   
   }
 
-  body .About_Company .col-sm-6 .about-img .about-font-img .img-top {
+  body .About_Company .col-sm-6 .about-img .about-font-img #fj {
     width: 180px;
-     height: 280px;
+     height: 180px;
   }
 
 }
